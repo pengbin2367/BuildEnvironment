@@ -91,3 +91,28 @@ vscode-icons提供给我的图标都是该语言的标志logo,相对更直观一
 ![image-20230321092257072](VSCode%E6%90%AD%E5%BB%BA%E5%89%8D%E7%AB%AF%E7%8E%AF%E5%A2%83.assets/image-20230321092257072.png)
 
 ## 5. LiveServer
+
+![image-20230321202859919](VSCode%E6%90%AD%E5%BB%BA%E5%89%8D%E7%AB%AF%E7%8E%AF%E5%A2%83.assets/image-20230321202859919.png)
+
+`LiveServer`会在你的机器上启动一个实时加载静态和动态页面的本地开发服务器，默认是跑在5500端口上
+
+![image-20230321203220014](VSCode%E6%90%AD%E5%BB%BA%E5%89%8D%E7%AB%AF%E7%8E%AF%E5%A2%83.assets/image-20230321203220014.png)
+
+安装好后，在编辑区域`右键`，选择`Open with Live Server`，它会打开你的默认浏览器并访问：
+
+![image-20230321203330685](VSCode%E6%90%AD%E5%BB%BA%E5%89%8D%E7%AB%AF%E7%8E%AF%E5%A2%83.assets/image-20230321203330685.png)
+
+需要注意的是：
+
+- VSCode打开的必须是一个文件夹，否则LiveServer无法正常工作
+- 打开的网页必须是标准的HTML结构，否则无法自动刷新
+
+## 6. Emmet
+
+当我们输入英文`!`号后，回车会给我生成一个默认的HTML结构：
+
+![image-20230321204627503](VSCode%E6%90%AD%E5%BB%BA%E5%89%8D%E7%AB%AF%E7%8E%AF%E5%A2%83.assets/image-20230321204627503.png)
+
+其中，生成的语言`lang`和`charset`可能并不是我们想要的，我们可以在设置中搜索emmet，滑到底部，添加我们想要生成的键值对：
+
+![image-20230321204803699](VSCode%E6%90%AD%E5%BB%BA%E5%89%8D%E7%AB%AF%E7%8E%AF%E5%A2%83.assets/image-20230321204803699.png)
